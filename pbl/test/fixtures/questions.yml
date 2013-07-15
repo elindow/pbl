@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id: MyString
+  page: 1
+  num: 1
+  qtext: MyText
+  notes: MyText
+  dateChanged: 2013-07-10
+
+two:
+  id: MyString
+  page: 1
+  num: 1
+  qtext: MyText
+  notes: MyText
+  dateChanged: 2013-07-10

@@ -1,0 +1,19 @@
+Problem Based Learning Website
+
+Initial DB config
+
+Model question  has_and_belongs_to_many :topics
+String   id
+Integer page
+Integer number
+Text	qtext
+Text	notes
+dateChanged date
+
+
+rails g scaffold question id:string page:integer num:integer qtext:text notes:text dateChanged:date
+
+Model topic  has_and_belongs_to_many :questions
+String topic_name
+Text notes
+

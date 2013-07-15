@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Topic name:
+  = @topic.topic_name
+%p
+  %b Notes:
+  = @topic.notes
+
+= link_to 'Edit', edit_topic_path(@topic)
+\|
+= link_to 'Back', topics_path
